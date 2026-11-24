@@ -1,0 +1,98 @@
+/* ============================================================
+   GALERI ANJING - css/style.css
+   Gaya tampilan template live coding Modul 2: Web APIs.
+   Kamu tidak perlu menyentuh file ini selama sesi: seluruh
+   pekerjaan kita ada di js/app.js. File ini hanya memastikan
+   hasil kodemu tampil rapi di layar laptop dan proyektor.
+   ============================================================ */
+
+html {
+  /* 112.5% = 18px: ukuran dasar nyaman dibaca di proyektor */
+  font-size: 112.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 760px;
+  padding: 32px 20px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  color: #292524;
+  background-color: #fafaf9;
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
+
+/* Baris status: senyap saat kosong, berbicara saat loading/error */
+#status {
+  min-height: 1.5em;
+  margin: 0 0 12px;
+}
+
+#status.loading {
+  color: #a16207;
+  font-style: italic;
+}
+
+#status.error {
+  color: #b42318;
+  font-weight: 600;
+}
+
+/* Tombol pemicu: cukup besar untuk klik dan proyektor */
+#btn-ambil {
+  padding: 12px 24px;
+  font: inherit;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #c2410c;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#btn-ambil:hover {
+  background-color: #9a3412;
+}
+
+#btn-ambil:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+#btn-ambil:focus-visible {
+  outline: 3px solid #c2410c;
+  outline-offset: 2px;
+}
+
+/* Papan foto: flex wrap berjarak */
+#galeri {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.foto {
+  display: block;
+  width: 200px;
+  border-radius: 12px;
+}
+
+/* Kartu menu M7: Restoran Kelas */
+.kartu {
+  width: 240px;
+  padding: 14px 16px;
+  background-color: #ffffff;
+  border: 1px solid #d6d3d1;
+  border-radius: 10px;
+}
