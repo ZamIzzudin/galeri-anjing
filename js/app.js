@@ -22,7 +22,7 @@
 // ------------------------------------------------------------
 // M1 - TOMBOL BERBUNYI
 // 1) const ALAMAT_API = "https://dog.ceo/api/breeds/image/random/3"
-// 2) Tiga pegangan di atas file:
+// 2) Tiga pegangan di bagian atas file:
 //      tombol <- elemen ber-ID "btn-ambil"
 //      galeri <- elemen ber-ID "galeri"
 //      status <- elemen ber-ID "status"
@@ -89,5 +89,5 @@
 // Tulis renderMenu(daftarMenu): kosongkan galeri, loop,
 // createElement("div"), className "kartu",
 // kartu.textContent = `${item.nama} - Rp${item.harga}`
-// panggil renderMenu(data.menu) setelah unpak.
+// panggil renderMenu(data.menu) setelah paketnya dibongkar.
 // ------------------------------------------------------------

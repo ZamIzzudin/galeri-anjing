@@ -1,7 +1,7 @@
 /* ============================================================
    GALERI ANJING - reference/app-final.js
    Versi final SETELAH M6, identik dengan Lampiran A materi.
-   Bagian M7 ada di bawah, dipisah telas jelas.
+   Bagian M7 ada di bawah, dipisah dengan jelas.
    ============================================================ */
 
 const ALAMAT_API = "https://dog.ceo/api/breeds/image/random/3";
@@ -49,7 +49,7 @@ tombol.addEventListener("click", ambilFoto);
    1) Ganti ALAMAT_API di atas dengan alamat kelas:
       const ALAMAT_API = "https://xxxx.ngrok.io/menu-harian.json";
    2) Tambahkan renderMenu di bawah, lalu di dalam ambilFoto,
-      setelah unpak, panggil renderMenu(data.menu).
+      setelah paketnya dibongkar, panggil renderMenu(data.menu).
    ============================================================ */
 
 // const ALAMAT_API = "https://xxxx.ngrok.io/menu-harian.json"; // ganti dengan alamat kelas

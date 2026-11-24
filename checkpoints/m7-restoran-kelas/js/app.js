@@ -3,7 +3,7 @@
    alamat di ALAMAT_API dengan alamat ngrok kelas yang dibagikan
    instruktur (tanyakan bila belum). Sebelum diganti, menekan
    tombol akan menampilkan pesan gagal yang sopan: itu wajar,
-   bukan bug; alamatnya memang belum tujuan mana pun. */
+   bukan bug; alamatnya memang belum menunjuk ke mana pun. */
 
 const ALAMAT_API = "https://GANTI-ALAMAT-NGROK-DISINI/menu-harian.json";
 
